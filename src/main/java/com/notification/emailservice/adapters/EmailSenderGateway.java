@@ -1,5 +1,7 @@
 package com.notification.emailservice.adapters;
 
+import com.notification.emailservice.core.EmailPayloadDTO;
+
 public interface EmailSenderGateway {
-    void sendEmail(String to, String subject, String body);
+    void sendEmail(EmailPayloadDTO emailPayload);
 }
