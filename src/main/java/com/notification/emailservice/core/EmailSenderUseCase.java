@@ -1,5 +1,5 @@
 package com.notification.emailservice.core;
 
 public interface EmailSenderUseCase {
-    void send(String to, String subject, String body);
+    void sendEmail(String to, String subject, String body);
 }
