@@ -56,3 +56,9 @@ os passos:
 * Criar um serviço com nome  <<nome-do-serviço>>EmailSender que implementa a interface EmailSenderGateway
 * Criar um qualifier para a nova implementação e modificar a injeção de dependência EmailSenderUseCaseImpl para usar a 
 nova implementação.
+
+
+### Referências:
+https://github.com/uber-archive/coding-challenge-tools/blob/master/coding_challenge.md
+
+https://www.youtube.com/watch?v=eFgeO9M9lLw&t=511s
